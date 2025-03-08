@@ -1,5 +1,5 @@
 // Instrucciones.
-// 1. realizar la clonacion de los proyectos BackEnd_CTalentos y FrontEndCT y ejecutar el Script de base de datos adjunto en VSC en carpeta Script - script.sql
+// 1. realizar la clonacion de los proyectos BackEnd_CTalentos y API_CT y ejecutar el Script de base de datos adjunto en VSC en carpeta Script - script.sql
 // 2. ingresar al VSC (visual studio code) y ejecutar la app ng serve --o
 // 3. registrarse con las siguientes credenciales:
 // *Email:spalma@ct.com.co
