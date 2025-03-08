@@ -6,10 +6,12 @@ import { ProductosComponent } from './Pages/productos/productos.component';
 import { CategoriasComponent } from './Pages/categorias/categorias.component';
 
 export const routes: Routes = [
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: '', component: InicioComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'inicio', component: InicioComponent },
   { path: 'nuevo', component: NuevoComponent },
-  { path: 'login', component: LoginComponent },
+
   {
     path: 'productos/:id',
     component: ProductosComponent,
